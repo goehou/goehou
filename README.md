@@ -4,6 +4,15 @@
 
 ### `AI Agent Engineer` · `MCP Builder` · `Frontend Spec Crafter`
 
+```txt
+┌─[goehou@github]─[~/profile]
+└──╼ $ boot --identity
+    identity : GOEHOU
+    class    : AI Agent Engineer / MCP Builder
+    status   : ONLINE
+    focus    : agents · automation · frontend specs
+```
+
 > Building sharp tools for AI workflows, developer systems, and automation pipelines.
 
 <p>
