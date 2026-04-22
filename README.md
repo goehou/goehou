@@ -49,3 +49,21 @@ AI Agent engineer · MCP · TypeScript · Python · JavaScript
   A persona-driven CLI engineering system shaped for Claude Code and Codex.
 - [goehou](https://github.com/goehou/goehou) ![Profile](https://img.shields.io/badge/--Profile%20README-8b5cf6?style=flat-square&labelColor=0d1117)
   Dark engineer dashboard README inspired by the structure of dacrab/dacrab.
+
+### Pull Requests
+
+- ![merged](https://img.shields.io/badge/merged-8b5cf6?style=flat-square&labelColor=0d1117) [docs(agent): Fix comments in top-level interfaces](https://github.com/influxdata/telegraf/pull/18518)
+  [influxdata/telegraf](https://github.com/influxdata/telegraf)
+- ![merged](https://img.shields.io/badge/merged-8b5cf6?style=flat-square&labelColor=0d1117) [feat(service): add generic retry helper](https://github.com/atopos31/llmio/pull/65)
+  [atopos31/llmio](https://github.com/atopos31/llmio)
+- ![merged](https://img.shields.io/badge/merged-8b5cf6?style=flat-square&labelColor=0d1117) [fix: 将 settings store 拆分为独立模块](https://github.com/J3n5en/EnsoAI/pull/323)
+  [J3n5en/EnsoAI](https://github.com/J3n5en/EnsoAI)
+
+### Recently Starred
+
+- [atopos31/llmio](https://github.com/atopos31/llmio) ![TypeScript](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/atopos31/llmio?style=flat-square&label=stars&labelColor=0d1117&color=555)
+  LLM API load-balancing gateway.
+- [telagod/code-abyss](https://github.com/telagod/code-abyss) ![JavaScript](https://img.shields.io/badge/--JavaScript-555?style=flat-square&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/telagod/code-abyss?style=flat-square&label=stars&labelColor=0d1117&color=555)
+  Persona system for Claude Code / Codex CLI with workflow doctrine and output styles.
+- [VeroFess/webshell](https://github.com/VeroFess/webshell) ![TypeScript](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d1117) ![stars](https://img.shields.io/github/stars/VeroFess/webshell?style=flat-square&label=stars&labelColor=0d1117&color=555)
+  Shared web console for Codex, Claude, and shell sessions, built with xterm.js.
