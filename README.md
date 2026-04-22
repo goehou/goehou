@@ -26,7 +26,11 @@ AI Agent engineer · MCP · TypeScript · Python · JavaScript
 
 ### Contributions
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=goehou&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=f8fafc&area=true&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/goehou/goehou/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/goehou/goehou/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/goehou/goehou/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ### Active Work
 
