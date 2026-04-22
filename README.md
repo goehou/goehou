@@ -1,6 +1,6 @@
-# goehou
+<h1 align="center">goehou</h1>
 
-AI Agent engineer · MCP · TypeScript · Python · JavaScript
+<p align="center">AI Agent engineer · MCP · TypeScript · Python · JavaScript</p>
 
 ![Focus](https://img.shields.io/badge/Focus-Agent%20Systems-8b5cf6?style=flat-square&labelColor=0d1117)
 ![Stack](https://img.shields.io/badge/Stack-MCP%20%26%20Automation-8b5cf6?style=flat-square&labelColor=0d1117)
@@ -11,18 +11,22 @@ AI Agent engineer · MCP · TypeScript · Python · JavaScript
 └──╼ $ ship --agents --mcp --automation
 ```
 
-### Stack
+<h3 align="center">Stack</h3>
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,powershell,nodejs,react,vite,git,github,vscode" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,powershell,nodejs,react,vite,git,github,vscode" />
+</p>
 
-### Stats
+<h3 align="center">Stats</h3>
 
-<p>
+<p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=goehou&show_icons=true&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9&icon_color=8b5cf6&ring_color=8b5cf6" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goehou&layout=compact&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9" />
 </p>
 
-<img height="180" src="https://streak-stats.demolab.com?user=goehou&theme=transparent&hide_border=true&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6&sideLabels=c9d1d9&dates=8b949e" />
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=goehou&theme=transparent&hide_border=true&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6&sideLabels=c9d1d9&dates=8b949e" />
+</p>
 
 ### Contributions
 
