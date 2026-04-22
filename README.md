@@ -1,100 +1,51 @@
-<div align="center">
+# goehou
 
-# GOEHOU
+AI Agent engineer · MCP · TypeScript · Python · JavaScript
 
-### `AI Agent Engineer` · `MCP Builder` · `Frontend Spec Crafter`
-
-```txt
-┌─[goehou@github]─[~/profile]
-└──╼ $ boot --identity
-    identity : GOEHOU
-    class    : AI Agent Engineer / MCP Builder
-    status   : ONLINE
-    focus    : agents · automation · frontend specs
-```
-
-> Building sharp tools for AI workflows, developer systems, and automation pipelines.
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/MCP-0A0A0A?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Agents-6C47FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Automation-111111?style=flat-square" />
-</p>
-
-<p>
-  <a href="https://github.com/goehou/Visual-Enhancement-mcp">Visual-Enhancement-mcp</a>
-  ·
-  <a href="https://github.com/goehou/code-abyss">code-abyss</a>
-  ·
-  <a href="https://github.com/goehou/TH-frontend-ui-spec">TH-frontend-ui-spec</a>
-</p>
-
-</div>
-
----
-
-## // profile.exe
-
-- Building **AI agents**, **MCP tools**, and **automation workflows**
-- Focused on **developer tooling**, **frontend specification systems**, and **interaction quality**
-- Prefer **clean architecture**, **minimal interfaces**, and **execution-first workflows**
-- Interested in **agent engineering**, **UI systems**, and **security-flavored tooling**
-
----
-
-## // current_focus
+![Focus](https://img.shields.io/badge/Focus-Agent%20Systems-8b5cf6?style=flat-square&labelColor=0d1117)
+![Stack](https://img.shields.io/badge/Stack-MCP%20%26%20Automation-8b5cf6?style=flat-square&labelColor=0d1117)
+![Mode](https://img.shields.io/badge/Mode-Execution%20First-8b5cf6?style=flat-square&labelColor=0d1117)
 
 ```txt
--> AI Agent Engineering
--> MCP Ecosystem Tooling
--> Frontend Design Specifications
--> Automation Pipelines
--> Developer Experience
+┌─[goehou@github]─[~/workspace]
+└──╼ $ ship --agents --mcp --automation
 ```
 
----
+### Stack
 
-## // featured_projects
+<img src="https://skillicons.dev/icons?i=ts,js,python,powershell,nodejs,react,vite,git,github,vscode" />
 
-### [Visual-Enhancement-mcp](https://github.com/goehou/Visual-Enhancement-mcp)
-MCP stdio server for image recognition through vision-model workflows.
+### Stats
 
-### [code-abyss](https://github.com/goehou/code-abyss)
-A persona-driven engineering workflow system for Claude Code / Codex CLI.
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=goehou&show_icons=true&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9&icon_color=8b5cf6&ring_color=8b5cf6" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goehou&layout=compact&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9" />
+</p>
 
-### [TH-frontend-ui-spec](https://github.com/goehou/TH-frontend-ui-spec)
-A practical UI review and frontend specification skillset for engineering teams.
+<img height="180" src="https://streak-stats.demolab.com?user=goehou&theme=transparent&hide_border=true&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6&sideLabels=c9d1d9&dates=8b949e" />
 
-### [glados-checkin](https://github.com/goehou/glados-checkin)
-A lightweight automation script for recurring platform check-ins.
+### Contributions
 
----
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=goehou&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=f8fafc&area=true&hide_border=true" />
 
-## // stack
+### Active Work
 
-**Languages**  
-TypeScript · Python · JavaScript · PowerShell
+- [Visual-Enhancement-mcp](https://github.com/goehou/Visual-Enhancement-mcp) ![TypeScript](https://img.shields.io/badge/--TypeScript-8b5cf6?style=flat-square&labelColor=0d1117)
+  MCP stdio server for image recognition via vision-model workflows.
+- [code-abyss](https://github.com/goehou/code-abyss) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
+  Persona-driven engineering workflow system for Claude Code / Codex CLI.
+- [TH-frontend-ui-spec](https://github.com/goehou/TH-frontend-ui-spec) ![UI Spec](https://img.shields.io/badge/--UI%20Spec-8b5cf6?style=flat-square&labelColor=0d1117)
+  UI review and frontend specification skillset for engineering teams.
+- [new-style-extractor](https://github.com/goehou/new-style-extractor) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
+  Style extractor with enhanced dynamic motion evidence pipeline.
 
-**Domains**  
-AI Agents · MCP · Frontend Specs · Automation · CLI Tooling
+### Recent Projects
 
-**Style**  
-Minimal · Structured · Sharp · Relentless
-
----
-
-## // principles
-
-- Build tools that reduce friction
-- Keep interfaces clean and intentional
-- Prefer repeatable workflows over manual rituals
-- Turn scattered experience into reusable systems
-
----
-
-<div align="center">
-  <sub>Clean code. Sharp tools. Relentless workflows.</sub>
-</div>
+- [anyrouter-check-in](https://github.com/goehou/anyrouter-check-in) ![Python](https://img.shields.io/badge/--Python-8b5cf6?style=flat-square&labelColor=0d1117)
+  Multi-platform, multi-account check-in automation for NewAPI / OneAPI style services.
+- [glados-checkin](https://github.com/goehou/glados-checkin) ![Python](https://img.shields.io/badge/--Python-8b5cf6?style=flat-square&labelColor=0d1117)
+  Lightweight recurring platform check-in automation.
+- [code-abyss](https://github.com/goehou/code-abyss) ![Workflow](https://img.shields.io/badge/--Workflow%20System-8b5cf6?style=flat-square&labelColor=0d1117)
+  A persona-driven CLI engineering system shaped for Claude Code and Codex.
+- [goehou](https://github.com/goehou/goehou) ![Profile](https://img.shields.io/badge/--Profile%20README-8b5cf6?style=flat-square&labelColor=0d1117)
+  Dark engineer dashboard README inspired by the structure of dacrab/dacrab.
