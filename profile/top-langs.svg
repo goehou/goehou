@@ -1,0 +1,23 @@
+<svg width="360" height="165" viewBox="0 0 360 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="goehou top languages">
+  <style>
+    .title { fill: #8b5cf6; font: 600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .label { fill: #c9d1d9; font: 500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .percent { fill: #8b949e; font: 500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .muted { fill: #8b949e; font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  </style>
+  <text x="24" y="31" class="title">Most Used Languages</text>
+  <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
+  <rect x="24.00" y="50" width="173.97" height="8" rx="4" fill="#3178c6"/>
+  <rect x="197.97" y="50" width="116.32" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="314.28" y="50" width="21.72" height="8" rx="4" fill="#3572A5"/>
+  <circle cx="24" cy="82" r="5" fill="#3178c6"/>
+    <text x="37" y="86" class="label">TypeScript</text>
+    <text x="156" y="86" class="percent" text-anchor="end">55.8%</text>
+    <circle cx="190" cy="82" r="5" fill="#f1e05a"/>
+    <text x="203" y="86" class="label">JavaScript</text>
+    <text x="322" y="86" class="percent" text-anchor="end">37.3%</text>
+    <circle cx="24" cy="108" r="5" fill="#3572A5"/>
+    <text x="37" y="112" class="label">Python</text>
+    <text x="156" y="112" class="percent" text-anchor="end">7.0%</text>
+  <text x="336" y="31" class="muted" text-anchor="end">auto-generated</text>
+</svg>

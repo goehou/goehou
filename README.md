@@ -20,8 +20,8 @@
 <h3 align="center">Stats</h3>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=goehou&show_icons=true&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9&icon_color=8b5cf6&ring_color=8b5cf6" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=goehou&layout=compact&theme=transparent&hide_border=true&title_color=8b5cf6&text_color=c9d1d9" />
+  <img height="165" src="./profile/stats.svg" alt="GitHub stats" />
+  <img height="165" src="./profile/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">
