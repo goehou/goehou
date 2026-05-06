@@ -2,6 +2,9 @@ import { mkdir, writeFile } from 'node:fs/promises';
 
 const token = process.env.GITHUB_TOKEN;
 const login = process.env.PROFILE_USER || 'goehou';
+const now = new Date();
+const yearStart = `${now.getUTCFullYear()}-01-01T00:00:00Z`;
+const generatedAt = now.toISOString().slice(0, 10);
 
 if (!token) {
   throw new Error('GITHUB_TOKEN is required');
@@ -16,7 +19,7 @@ const theme = {
 };
 
 const query = `
-query ProfileStats($login: String!) {
+query ProfileStats($login: String!, $yearStart: DateTime!) {
   user(login: $login) {
     login
     followers { totalCount }
@@ -33,7 +36,7 @@ query ProfileStats($login: String!) {
         }
       }
     }
-    contributionsCollection {
+    contributionsCollection(from: $yearStart) {
       contributionCalendar { totalContributions }
       totalCommitContributions
       totalIssueContributions
@@ -52,7 +55,7 @@ const response = await fetch('https://api.github.com/graphql', {
     'content-type': 'application/json',
     'user-agent': `${login}-profile-stats`,
   },
-  body: JSON.stringify({ query, variables: { login } }),
+  body: JSON.stringify({ query, variables: { login, yearStart } }),
 });
 
 if (!response.ok) {
@@ -110,11 +113,11 @@ function formatNumber(value) {
   return new Intl.NumberFormat('en-US').format(value);
 }
 
-function statRow(icon, label, value, x, y) {
+function statRow(icon, label, value, x, y, valueX = x + 245) {
   return `
-    <text x="${x}" y="${y}" class="icon">${icon}</text>
-    <text x="${x + 24}" y="${y}" class="label">${escapeXml(label)}</text>
-    <text x="${x + 245}" y="${y}" class="value" text-anchor="end">${escapeXml(formatNumber(value))}</text>`;
+    <text x="${x}" y="${y}" class="icon">${escapeXml(icon)}</text>
+    <text x="${x + 28}" y="${y}" class="label">${escapeXml(label)}</text>
+    <text x="${valueX}" y="${y}" class="value" text-anchor="end">${escapeXml(formatNumber(value))}</text>`;
 }
 
 function renderStatsSvg() {
@@ -123,19 +126,19 @@ function renderStatsSvg() {
     .title { fill: ${theme.title}; font: 600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
     .label { fill: ${theme.text}; font: 500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
     .value { fill: ${theme.title}; font: 700 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    .icon { fill: ${theme.icon}; font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI Emoji",sans-serif; }
+    .icon { fill: ${theme.icon}; font: 700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
     .muted { fill: ${theme.muted}; font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
   </style>
   <text x="24" y="31" class="title">${escapeXml(login)}'s GitHub Stats</text>
-  ${statRow('?', 'Total Stars Earned', totals.stars, 26, 62)}
-  ${statRow('?', 'Total Forks', totals.forks, 26, 88)}
-  ${statRow('?', 'Public Repositories', totals.repos, 26, 114)}
-  ${statRow('?', 'Contributions (this year)', totals.contributions, 26, 140)}
-  ${statRow('?', 'Commits', totals.commits, 282, 62)}
-  ${statRow('?', 'Pull Requests', totals.prs, 282, 88)}
-  ${statRow('!', 'Issues', totals.issues, 282, 114)}
-  ${statRow('??', 'Followers', totals.followers, 282, 140)}
-  <text x="456" y="31" class="muted" text-anchor="end">auto-generated</text>
+  ${statRow('ST', 'Total Stars Earned', totals.stars, 26, 62, 258)}
+  ${statRow('FK', 'Total Forks', totals.forks, 26, 88, 258)}
+  ${statRow('RP', 'Public Repositories', totals.repos, 26, 114, 258)}
+  ${statRow('CY', `Contributions (${now.getUTCFullYear()})`, totals.contributions, 26, 140, 258)}
+  ${statRow('CM', 'Commits', totals.commits, 282, 62, 456)}
+  ${statRow('PR', 'Pull Requests', totals.prs, 282, 88, 456)}
+  ${statRow('IS', 'Issues', totals.issues, 282, 114, 456)}
+  ${statRow('FW', 'Followers', totals.followers, 282, 140, 456)}
+  <text x="456" y="31" class="muted" text-anchor="end">${generatedAt}</text>
 </svg>
 `;
 }
