@@ -7,21 +7,21 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="147.92" height="8" rx="4" fill="#3178c6"/>
-  <rect x="171.92" y="50" width="115.75" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="287.67" y="50" width="31.84" height="8" rx="4" fill="#C1F12E"/>
-  <rect x="319.51" y="50" width="16.49" height="8" rx="4" fill="#3572A5"/>
+  <rect x="24.00" y="50" width="155.25" height="8" rx="4" fill="#3178c6"/>
+  <rect x="179.25" y="50" width="110.58" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="289.83" y="50" width="30.42" height="8" rx="4" fill="#C1F12E"/>
+  <rect x="320.25" y="50" width="15.75" height="8" rx="4" fill="#3572A5"/>
   <circle cx="24" cy="82" r="5" fill="#3178c6"/>
     <text x="37" y="86" class="label">TypeScript</text>
-    <text x="156" y="86" class="percent" text-anchor="end">47.4%</text>
+    <text x="156" y="86" class="percent" text-anchor="end">49.8%</text>
     <circle cx="190" cy="82" r="5" fill="#f1e05a"/>
     <text x="203" y="86" class="label">JavaScript</text>
-    <text x="322" y="86" class="percent" text-anchor="end">37.1%</text>
+    <text x="322" y="86" class="percent" text-anchor="end">35.4%</text>
     <circle cx="24" cy="108" r="5" fill="#C1F12E"/>
     <text x="37" y="112" class="label">Batchfile</text>
-    <text x="156" y="112" class="percent" text-anchor="end">10.2%</text>
+    <text x="156" y="112" class="percent" text-anchor="end">9.7%</text>
     <circle cx="190" cy="108" r="5" fill="#3572A5"/>
     <text x="203" y="112" class="label">Python</text>
-    <text x="322" y="112" class="percent" text-anchor="end">5.3%</text>
+    <text x="322" y="112" class="percent" text-anchor="end">5.0%</text>
   <text x="336" y="31" class="muted" text-anchor="end">auto-generated</text>
 </svg>
