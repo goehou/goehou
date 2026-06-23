@@ -2,7 +2,7 @@ name: Generate profile stats
 
 on:
   schedule:
-    - cron: "15 */12 * * *"→ Runs at 15 minutes past the hour, every 12 hours
+    - cron: "15 */12 * * *" # Runs at 15 minutes past the hour, every 12 hours
   workflow_dispatch:
   push:
     branches:
