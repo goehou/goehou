@@ -2,7 +2,7 @@ name: Generate profile stats
 
 on:
   schedule:
-    - cron: "15 */12 * * *"
+    - cron: "15 */12 * * *"→ Runs at 15 minutes past the hour, every 12 hours
   workflow_dispatch:
   push:
     branches:
@@ -20,12 +20,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Generate SVG cards
         run: node scripts/generate-profile-stats.mjs
@@ -34,7 +34,7 @@ jobs:
           PROFILE_USER: ${{ github.repository_owner }}
 
       - name: Commit refreshed stats
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: refresh profile stats"
           file_pattern: profile/*.svg
