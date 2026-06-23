@@ -7,21 +7,25 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="155.25" height="8" rx="4" fill="#3178c6"/>
-  <rect x="179.25" y="50" width="110.58" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="289.83" y="50" width="30.42" height="8" rx="4" fill="#C1F12E"/>
-  <rect x="320.25" y="50" width="15.75" height="8" rx="4" fill="#3572A5"/>
-  <circle cx="24" cy="82" r="5" fill="#3178c6"/>
-    <text x="37" y="86" class="label">TypeScript</text>
-    <text x="156" y="86" class="percent" text-anchor="end">49.8%</text>
-    <circle cx="190" cy="82" r="5" fill="#f1e05a"/>
-    <text x="203" y="86" class="label">JavaScript</text>
-    <text x="322" y="86" class="percent" text-anchor="end">35.4%</text>
+  <rect x="24.00" y="50" width="170.46" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="194.46" y="50" width="102.56" height="8" rx="4" fill="#3178c6"/>
+  <rect x="297.03" y="50" width="20.10" height="8" rx="4" fill="#C1F12E"/>
+  <rect x="317.12" y="50" width="10.41" height="8" rx="4" fill="#3572A5"/>
+  <rect x="327.53" y="50" width="8.47" height="8" rx="4" fill="#e34c26"/>
+  <circle cx="24" cy="82" r="5" fill="#f1e05a"/>
+    <text x="37" y="86" class="label">JavaScript</text>
+    <text x="156" y="86" class="percent" text-anchor="end">54.6%</text>
+    <circle cx="190" cy="82" r="5" fill="#3178c6"/>
+    <text x="203" y="86" class="label">TypeScript</text>
+    <text x="322" y="86" class="percent" text-anchor="end">32.9%</text>
     <circle cx="24" cy="108" r="5" fill="#C1F12E"/>
     <text x="37" y="112" class="label">Batchfile</text>
-    <text x="156" y="112" class="percent" text-anchor="end">9.7%</text>
+    <text x="156" y="112" class="percent" text-anchor="end">6.4%</text>
     <circle cx="190" cy="108" r="5" fill="#3572A5"/>
     <text x="203" y="112" class="label">Python</text>
-    <text x="322" y="112" class="percent" text-anchor="end">5.0%</text>
+    <text x="322" y="112" class="percent" text-anchor="end">3.3%</text>
+    <circle cx="24" cy="134" r="5" fill="#e34c26"/>
+    <text x="37" y="138" class="label">HTML</text>
+    <text x="156" y="138" class="percent" text-anchor="end">2.7%</text>
   <text x="336" y="31" class="muted" text-anchor="end">auto-generated</text>
 </svg>
