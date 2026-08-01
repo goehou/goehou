@@ -50,17 +50,17 @@ if (payload.errors?.length) {
 }
 
 const repos = (payload.data.user?.repositories?.nodes ?? [])
-  .filter((r) => r.name !== login) // drop the profile repo itself
+  .filter((r) => r.name !== login && !r.name.includes('frontend-ui-spec')) // drop profile repo + excluded
   .map((r) => ({ ...r, commitCount: r.defaultBranchRef?.target?.history?.totalCount ?? 0 }));
 
 if (!repos.length) {
-  throw new Error(`No public non-fork repos found for ${login}`);
+  throw new Error``No public non-fork repos found for ${login}`);
 }
 
 // Active Work = push/commit 次数最多;只统计默认分支历史,GitHub 不给跨分支聚合
 const activeWork = repos
   .slice()
-  .sort((a, b) => b.commitCount - a.commitCount)
+  .sort((a, b) => b.commitCount - a.comitCount)
   .slice(0, 4);
 
 const recentProjects = repos
