@@ -21,6 +21,9 @@ query ProfileRepos($login: String!) {
         pushedAt
         createdAt
         primaryLanguage { name }
+        defaultBranchRef {
+          target { ... on Commit { history { totalCount } } }
+        }
       }
     }
   }
@@ -47,15 +50,17 @@ if (payload.errors?.length) {
 }
 
 const repos = (payload.data.user?.repositories?.nodes ?? [])
-  .filter((r) => r.name !== login); // drop the profile repo itself
+  .filter((r) => r.name !== login) // drop the profile repo itself
+  .map((r) => ({ ...r, commitCount: r.defaultBranchRef?.target?.history?.totalCount ?? 0 }));
 
 if (!repos.length) {
   throw new Error(`No public non-fork repos found for ${login}`);
 }
 
+// Active Work = push/commit 次数最多;只统计默认分支历史,GitHub 不给跨分支聚合
 const activeWork = repos
   .slice()
-  .sort((a, b) => b.pushedAt.localeCompare(a.pushedAt))
+  .sort((a, b) => b.commitCount - a.commitCount)
   .slice(0, 4);
 
 const recentProjects = repos
@@ -97,3 +102,4 @@ if (readme === original) {
 
 await writeFile(readmePath, readme, 'utf8');
 console.log(`Refreshed README for ${login}: active=${activeWork.map(r => r.name).join(',')}, recent=${recentProjects.map(r => r.name).join(',')}`);
+
