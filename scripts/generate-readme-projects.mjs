@@ -41,7 +41,7 @@ const response = await fetch('https://api.github.com/graphql', {
 });
 
 if (!response.ok) {
-  throw new Error(`GitHub GraphQL failed: ${response.status} ${response.statusText}`);
+  throw new Error('GitHub GraphQL failed: ' + response.status + ' ' + response.statusText);
 }
 
 const payload = await response.json();
@@ -54,13 +54,13 @@ const repos = (payload.data.user?.repositories?.nodes ?? [])
   .map((r) => ({ ...r, commitCount: r.defaultBranchRef?.target?.history?.totalCount ?? 0 }));
 
 if (!repos.length) {
-  throw new Error``No public non-fork repos found for ${login}`);
+  throw new Error('No public non-fork repos found for ' + login);
 }
 
 // Active Work = push/commit 次数最多;只统计默认分支历史,GitHub 不给跨分支聚合
 const activeWork = repos
   .slice()
-  .sort((a, b) => b.commitCount - a.comitCount)
+  .sort((a, b) => b.commitCount - a.commitCount)
   .slice(0, 4);
 
 const recentProjects = repos
@@ -86,7 +86,7 @@ function renderSection(list) {
 
 // Replace the body between a `### Heading` and the next `### ` (or EOF)
 function replaceSection(readme, heading, body) {
-  const re = new RegExp(`(### ${heading}\\n)([\\s\\S]*?)(\\n### |$)`);
+  const re = new RegExp('(### ' + heading + '\\n)([\\s\\S]*?)(\\n### |$)');
   return readme.replace(re, (_m, pre, _old, post) => `${pre}${body}${post}`);
 }
 
@@ -101,5 +101,5 @@ if (readme === original) {
 }
 
 await writeFile(readmePath, readme, 'utf8');
-console.log(`Refreshed README for ${login}: active=${activeWork.map(r => r.name).join(',')}, recent=${recentProjects.map(r => r.name).join(',')}`);
+console.log('Refreshed README for ' + login + ': active=' + activeWork.map(r => r.name).join(',') + ', recent=' + recentProjects.map(r => r.name).join(','));
 
