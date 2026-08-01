@@ -9,6 +9,7 @@ if (!token) {
 
 // ponytail: Recent Projects 默认按 createdAt 倒序;如果想要别的(如 star 数、手挑),改 sortKey 即可
 const sortKey = 'createdAt';
+const EXCLUDED = ['frontend-ui-spec', 'tabbit-toy'];
 
 const query = `
 query ProfileRepos($login: String!) {
@@ -50,7 +51,7 @@ if (payload.errors?.length) {
 }
 
 const repos = (payload.data.user?.repositories?.nodes ?? [])
-  .filter((r) => r.name !== login && !r.name.includes('frontend-ui-spec')) // drop profile repo + excluded
+  .filter((r) => r.name !== login && !EXCLUDED.some((e) => r.name.includes(e))) // drop profile repo + excluded
   .map((r) => ({ ...r, commitCount: r.defaultBranchRef?.target?.history?.totalCount ?? 0 }));
 
 if (!repos.length) {
