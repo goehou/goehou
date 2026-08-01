@@ -9,7 +9,7 @@ if (!token) {
 
 // ponytail: Recent Projects 默认按 createdAt 倒序;如果想要别的(如 star 数、手挑),改 sortKey 即可
 const sortKey = 'createdAt';
-const EXCLUDED = ['frontend-ui-spec', 'tabbit-toy'];
+const EXCLUDED = ['frontend-ui-spec', 'tabbit-toy', 'glados-checkin'];
 const PINNED = ['Juyu-phone-agent']; // 写死放到 Active Work 末尾
 
 const query = `
