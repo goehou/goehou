@@ -44,10 +44,10 @@
   MCP stdio server for image recognition via an existng vision model 一个可以增强claude code/codex/opencode识图能力的MCP
 - [pi-feishu-monitor](https://github.com/goehou/pi-feishu-monitor) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
   Pi × 飞书 24/7 监控桥：手机远程控制 Pi、下任务、审批危险操作，长连接无需公网 IP
-- [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
-  📱 在 Android 手机上跑的通用 AI Agent · ♿ 无障碍服务操控界面 · 🔑 BYOK 多模型 · 🚫 不需要 Root 📱 A general-purpose AI Agent running on Android phones · ♿ Accessibility-driven UI control · 🔑 BYOK multi-model · 🚫 No Root required
 - [glados-checkin](https://github.com/goehou/glados-checkin) ![Python](https://img.shields.io/badge/--Python-8b5cf6?style=flat-square&labelColor=0d1117)
   GLaDOS 自动签到脚本
+- [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
+  📱 在 Android 手机上跑的通用 AI Agent · ♿ 无障碍服务操控界面 · 🔑 BYOK 多模型 · 🚫 不需要 Root 📱 A general-purpose AI Agent running on Android phones · ♿ Accessibility-driven UI control · 🔑 BYOK multi-model · 🚫 No Root required
 
 ### Recent Projects
 - [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
