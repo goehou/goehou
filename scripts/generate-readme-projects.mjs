@@ -10,6 +10,7 @@ if (!token) {
 // ponytail: Recent Projects 默认按 createdAt 倒序;如果想要别的(如 star 数、手挑),改 sortKey 即可
 const sortKey = 'createdAt';
 const EXCLUDED = ['frontend-ui-spec', 'tabbit-toy'];
+const PINNED = ['Juyu-phone-agent']; // 写死放到 Active Work 末尾
 
 const query = `
 query ProfileRepos($login: String!) {
@@ -58,11 +59,14 @@ if (!repos.length) {
   throw new Error('No public non-fork repos found for ' + login);
 }
 
-// Active Work = push/commit 次数最多;只统计默认分支历史,GitHub 不给跨分支聚合
+// Active Work = push/commit 次数最多 + 末尾写死 PINNED;只统计默认分支历史,GitHub 不给跨分支聚合
+const pinnedRepos = PINNED.map((name) => repos.find((r) => r.name === name)).filter(Boolean);
 const activeWork = repos
+  .filter((r) => !PINNED.includes(r.name))
   .slice()
   .sort((a, b) => b.commitCount - a.commitCount)
-  .slice(0, 4);
+  .slice(0, 4 - pinnedRepos.length)
+  .concat(pinnedRepos);
 
 const recentProjects = repos
   .slice()
