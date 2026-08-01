@@ -7,10 +7,10 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="155.75" height="8" rx="4" fill="#A97BFF"/>
-  <rect x="179.75" y="50" width="52.83" height="8" rx="4" fill="#3572A5"/>
-  <rect x="232.58" y="50" width="42.47" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="275.04" y="50" width="31.85" height="8" rx="4" fill="#3178c6"/>
+  <rect x="24.00" y="50" width="155.74" height="8" rx="4" fill="#A97BFF"/>
+  <rect x="179.74" y="50" width="52.83" height="8" rx="4" fill="#3572A5"/>
+  <rect x="232.57" y="50" width="42.48" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="275.05" y="50" width="31.85" height="8" rx="4" fill="#3178c6"/>
   <rect x="306.90" y="50" width="18.80" height="8" rx="4" fill="#e34c26"/>
   <rect x="325.70" y="50" width="10.30" height="8" rx="4" fill="#dea584"/>
   <circle cx="24" cy="82" r="5" fill="#A97BFF"/>

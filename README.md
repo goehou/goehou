@@ -44,10 +44,10 @@
   MCP stdio server for image recognition via an existng vision model 一个可以增强claude code/codex/opencode识图能力的MCP
 - [pi-feishu-monitor](https://github.com/goehou/pi-feishu-monitor) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
   Pi × 飞书 24/7 监控桥：手机远程控制 Pi、下任务、审批危险操作，长连接无需公网 IP
-- [frontend-ui-spec](https://github.com/goehou/frontend-ui-spec)
-  This is a skill designed for Claude Code, Codex, or OpenCode, used for TH Company's UI review or UI specifications.
 - [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
   📱 在 Android 手机上跑的通用 AI Agent · ♿ 无障碍服务操控界面 · 🔑 BYOK 多模型 · 🚫 不需要 Root 📱 A general-purpose AI Agent running on Android phones · ♿ Accessibility-driven UI control · 🔑 BYOK multi-model · 🚫 No Root required
+- [tabbit-toy](https://github.com/goehou/tabbit-toy) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
+  这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型
 
 ### Recent Projects
 - [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
