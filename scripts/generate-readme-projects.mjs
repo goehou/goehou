@@ -102,7 +102,12 @@ readme = replaceSection(readme, 'Active Work', renderSection(activeWork));
 readme = replaceSection(readme, 'Recent Projects', renderSection(recentProjects));
 
 if (readme === original) {
-  throw new Error('README not changed — headings "Active Work" / "Recent Projects" not found');
+  // ponytail: heading 真缺失才算错误;数据没变导致内容不变是正常情况,正常退出即可
+  if (!/### Active Work\n/.test(original) || !/### Recent Projects\n/.test(original)) {
+    throw new Error('README headings "Active Work" / "Recent Projects" not found');
+  }
+  console.log('No changes — README already up to date');
+  process.exit(0);
 }
 
 await writeFile(readmePath, readme, 'utf8');
