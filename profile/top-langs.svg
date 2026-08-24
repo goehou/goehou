@@ -7,11 +7,11 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="146.45" height="8" rx="4" fill="#A97BFF"/>
-  <rect x="170.45" y="50" width="52.41" height="8" rx="4" fill="#3572A5"/>
-  <rect x="222.86" y="50" width="48.05" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="270.91" y="50" width="29.95" height="8" rx="4" fill="#3178c6"/>
-  <rect x="300.86" y="50" width="25.45" height="8" rx="4" fill="#e34c26"/>
+  <rect x="24.00" y="50" width="146.41" height="8" rx="4" fill="#A97BFF"/>
+  <rect x="170.41" y="50" width="52.40" height="8" rx="4" fill="#3572A5"/>
+  <rect x="222.81" y="50" width="48.12" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="270.93" y="50" width="29.94" height="8" rx="4" fill="#3178c6"/>
+  <rect x="300.87" y="50" width="25.44" height="8" rx="4" fill="#e34c26"/>
   <rect x="326.31" y="50" width="9.69" height="8" rx="4" fill="#dea584"/>
   <circle cx="24" cy="82" r="5" fill="#A97BFF"/>
     <text x="37" y="86" class="label">Kotlin</text>
