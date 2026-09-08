@@ -1,1 +1,183 @@
-aW1wb3J0IHsgbWtkaXIsIHdyaXRlRmlsZSB9IGZyb20gJ25vZGU6ZnMvcHJvbWlzZXMnOwoKY29uc3QgdG9rZW4gPSBwcm9jZXNzLmVudi5HSVRIVUJfVE9LRU47CmNvbnN0IGxvZ2luID0gcHJvY2Vzcy5lbnYuUFJPRklMRV9VU0VSIHx8ICdnb2Vob3UnOwpjb25zdCBub3cgPSBuZXcgRGF0ZSgpOwpjb25zdCB5ZWFyU3RhcnQgPSBgJHtub3cuZ2V0VVRDRnVsbFllYXIoKX0tMDEtMDFUMDA6MDA6MDBaYDsKY29uc3QgZ2VuZXJhdGVkQXQgPSBub3cudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCk7CgppZiAoIXRva2VuKSB7CiAgdGhyb3cgbmV3IEVycm9yKCdHSVRIVUJfVE9LRU4gaXMgcmVxdWlyZWQnKTsKfQoKY29uc3QgdGhlbWUgPSB7CiAgdGl0bGU6ICcjOGI1Y2Y2JywKICB0ZXh0OiAnI2M5ZDFkOScsCiAgbXV0ZWQ6ICcjOGI5NDllJywKICBpY29uOiAnIzhiNWNmNicsCiAgdHJhY2s6ICcjMzAzNjNkJywKfTsKCmNvbnN0IHF1ZXJ5ID0gYApxdWVyeSBQcm9maWxlU3RhdHMoJGxvZ2luOiBTdHJpbmchLCAkeWVhclN0YXJ0OiBEYXRlVGltZSEpIHsKICB1c2VyKGxvZ2luOiAkbG9naW4pIHsKICAgIGxvZ2luCiAgICBmb2xsb3dlcnMgeyB0b3RhbENvdW50IH0KICAgIHJlcG9zaXRvcmllcyhmaXJzdDogMTAwLCBvd25lckFmZmlsaWF0aW9uczogT1dORVIsIHByaXZhY3k6IFBVQkxJQywgb3JkZXJCeToge2ZpZWxkOiBTVEFSR0FaRVJTLCBkaXJlY3Rpb246IERFU0N9KSB7CiAgICAgIHRvdGFsQ291bnQKICAgICAgbm9kZXMgewogICAgICAgIHN0YXJnYXplckNvdW50CiAgICAgICAgZm9ya0NvdW50CiAgICAgICAgbGFuZ3VhZ2VzKGZpcnN0OiAxMCwgb3JkZXJCeToge2ZpZWxkOiBTSVpFLCBkaXJlY3Rpb246IERFU0N9KSB7CiAgICAgICAgICBlZGdlcyB7CiAgICAgICAgICAgIHNpemUKICAgICAgICAgICAgbm9kZSB7IG5hbWUgY29sb3IgfQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQogICAgfQogICAgY29udHJpYnV0aW9uc0NvbGxlY3Rpb24oZnJvbTogJHllYXJTdGFydCkgewogICAgICBjb250cmlidXRpb25DYWxlbmRhciB7IHRvdGFsQ29udHJpYnV0aW9ucyB9CiAgICAgIHRvdGFsQ29tbWl0Q29udHJpYnV0aW9ucwogICAgICB0b3RhbElzc3VlQ29udHJpYnV0aW9ucwogICAgICB0b3RhbFB1bGxSZXF1ZXN0Q29udHJpYnV0aW9ucwogICAgICB0b3RhbFB1bGxSZXF1ZXN0UmV2aWV3Q29udHJpYnV0aW9ucwogICAgICByZXN0cmljdGVkQ29udHJpYnV0aW9uc0NvdW50CiAgICB9CiAgfQp9CmA7Cgpjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKCdodHRwczovL2FwaS5naXRodWIuY29tL2dyYXBocWwnLCB7CiAgbWV0aG9kOiAnUE9TVCcsCiAgaGVhZGVyczogewogICAgYXV0aG9yaXphdGlvbjogYEJlYXJlciAke3Rva2VufWAsCiAgICAnY29udGVudC10eXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nLAogICAgJ3VzZXItYWdlbnQnOiBgJHtsb2dpbn0tcHJvZmlsZS1zdGF0c2AsCiAgfSwKICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHF1ZXJ5LCB2YXJpYWJsZXM6IHsgbG9naW4sIHllYXJTdGFydCB9IH0pLAp9KTsKCmlmICghcmVzcG9uc2Uub2spIHsKICB0aHJvdyBuZXcgRXJyb3IoYEdpdEh1YiBHcmFwaFFMIGZhaWxlZDogJHtyZXNwb25zZS5zdGF0dXN9ICR7cmVzcG9uc2Uuc3RhdHVzVGV4dH1gKTsKfQoKY29uc3QgcGF5bG9hZCA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKaWYgKHBheWxvYWQuZXJyb3JzPy5sZW5ndGgpIHsKICB0aHJvdyBuZXcgRXJyb3IocGF5bG9hZC5lcnJvcnMubWFwKChlcnJvcikgPT4gZXJyb3IubWVzc2FnZSkuam9pbignOyAnKSk7Cn0KCmNvbnN0IHVzZXIgPSBwYXlsb2FkLmRhdGEudXNlcjsKaWYgKCF1c2VyKSB7CiAgdGhyb3cgbmV3IEVycm9yKGBHaXRIdWIgdXNlciBub3QgZm91bmQ6ICR7bG9naW59YCk7Cn0KCmNvbnN0IHJlcG9zID0gdXNlci5yZXBvc2l0b3JpZXMubm9kZXMgPz8gW107CmNvbnN0IGNvbnRyaWJ1dGlvbnMgPSB1c2VyLmNvbnRyaWJ1dGlvbnNDb2xsZWN0aW9uOwpjb25zdCB0b3RhbHMgPSB7CiAgc3RhcnM6IHJlcG9zLnJlZHVjZSgoc3VtLCByZXBvKSA9PiBzdW0gKyByZXBvLnN0YXJnYXplckNvdW50LCAwKSwKICBmb3JrczogcmVwb3MucmVkdWNlKChzdW0sIHJlcG8pID0+IHN1bSArIHJlcG8uZm9ya0NvdW50LCAwKSwKICByZXBvczogdXNlci5yZXBvc2l0b3JpZXMudG90YWxDb3VudCwKICBmb2xsb3dlcnM6IHVzZXIuZm9sbG93ZXJzLnRvdGFsQ291bnQsCiAgY29udHJpYnV0aW9uczogY29udHJpYnV0aW9ucy5jb250cmlidXRpb25DYWxlbmRhci50b3RhbENvbnRyaWJ1dGlvbnMsCiAgY29tbWl0czogY29udHJpYnV0aW9ucy50b3RhbENvbW1pdENvbnRyaWJ1dGlvbnMsCiAgcHJzOiBjb250cmlidXRpb25zLnRvdGFsUHVsbFJlcXVlc3RDb250cmlidXRpb25zLAogIGlzc3VlczogY29udHJpYnV0aW9ucy50b3RhbElzc3VlQ29udHJpYnV0aW9ucywKICByZXZpZXdzOiBjb250cmlidXRpb25zLnRvdGFsUHVsbFJlcXVlc3RSZXZpZXdDb250cmlidXRpb25zLAp9OwoKY29uc3QgbGFuZ3VhZ2VzID0gbmV3IE1hcCgpOwpmb3IgKGNvbnN0IHJlcG8gb2YgcmVwb3MpIHsKICBmb3IgKGNvbnN0IGVkZ2Ugb2YgcmVwby5sYW5ndWFnZXMuZWRnZXMgPz8gW10pIHsKICAgIGNvbnN0IG5hbWUgPSBlZGdlLm5vZGUubmFtZTsKICAgIGNvbnN0IGN1cnJlbnQgPSBsYW5ndWFnZXMuZ2V0KG5hbWUpID8/IHsgbmFtZSwgY29sb3I6IGVkZ2Uubm9kZS5jb2xvciB8fCB0aGVtZS5pY29uLCBzaXplOiAwIH07CiAgICBjdXJyZW50LnNpemUgKz0gZWRnZS5zaXplOwogICAgbGFuZ3VhZ2VzLnNldChuYW1lLCBjdXJyZW50KTsKICB9Cn0KCmNvbnN0IHRvcExhbmd1YWdlcyA9IFsuLi5sYW5ndWFnZXMudmFsdWVzKCldCiAgLnNvcnQoKGEsIGIpID0+IGIuc2l6ZSAtIGEuc2l6ZSkKICAuc2xpY2UoMCwgNik7CmNvbnN0IGxhbmd1YWdlVG90YWwgPSB0b3BMYW5ndWFnZXMucmVkdWNlKChzdW0sIGxhbmd1YWdlKSA9PiBzdW0gKyBsYW5ndWFnZS5zaXplLCAwKSB8fCAxOwoKZnVuY3Rpb24gZXNjYXBlWG1sKHZhbHVlKSB7CiAgcmV0dXJuIFN0cmluZyh2YWx1ZSkKICAgIC5yZXBsYWNlQWxsKCcmJywgJyZhbXA7JykKICAgIC5yZXBsYWNlQWxsKCc8JywgJyZsdDsnKQogICAgLnJlcGxhY2VBbGwoJz4nLCAnJmd0OycpCiAgICAucmVwbGFjZUFsbCgnIicsICcmcXVvdDsnKTsKfQoKZnVuY3Rpb24gZm9ybWF0TnVtYmVyKHZhbHVlKSB7CiAgcmV0dXJuIG5ldyBJbnRsLk51bWJlckZvcm1hdCgnZW4tVVMnKS5mb3JtYXQodmFsdWUpOwp9CgpmdW5jdGlvbiBzdGF0Um93KGljb24sIGxhYmVsLCB2YWx1ZSwgeCwgeSwgdmFsdWVYID0geCArIDI0NSkgewogIHJldHVybiBgCiAgICA8dGV4dCB4PSIke3h9IiB5PSIke3l9IiBjbGFzcz0iaWNvbiI+JHtlc2NhcGVYbWwoaWNvbil9PC90ZXh0PgogICAgPHRleHQgeD0iJHt4ICsgMjh9IiB5PSIke3l9IiBjbGFzcz0ibGFiZWwiPiR7ZXNjYXBlWG1sKGxhYmVsKX08L3RleHQ+CiAgICA8dGV4dCB4PSIke3ZhbHVlWH0iIHk9IiR7eX0iIGNsYXNzPSJ2YWx1ZSIgdGV4dC1hbmNob3I9ImVuZCI+JHtlc2NhcGVYbWwoZm9ybWF0TnVtYmVyKHZhbHVlKSl9PC90ZXh0PmA7Cn0KCmZ1bmN0aW9uIHJlbmRlclN0YXRzU3ZnKCkgewogIHJldHVybiBgPHN2ZyB3aWR0aD0iNDgwIiBoZWlnaHQ9IjE2NSIgdmlld0JveD0iMCAwIDQ4MCAxNjUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSIke2VzY2FwZVhtbChsb2dpbil9IEdpdEh1YiBzdGF0cyI+CiAgPHN0eWxlPgogICAgLnRpdGxlIHsgZmlsbDogJHt0aGVtZS50aXRsZX07IGZvbnQ6IDYwMCAxOHB4IC1hcHBsZS1zeXN0ZW0sQmxpbmtNYWNTeXN0ZW1Gb250LCJTZWdvZSBVSSIsc2Fucy1zZXJpZjsgfQogICAgLmxhYmVsIHsgZmlsbDogJHt0aGVtZS50ZXh0fTsgZm9udDogNTAwIDE0cHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsIlNlZ29lIFVJIixzYW5zLXNlcmlmOyB9CiAgICAudmFsdWUgeyBmaWxsOiAke3RoZW1lLnRpdGxlfTsgZm9udDogNzAwIDE0cHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsIlNlZ29lIFVJIixzYW5zLXNlcmlmOyB9CiAgICAuaWNvbiB7IGZpbGw6ICR7dGhlbWUuaWNvbn07IGZvbnQ6IDcwMCAxM3B4IHVpLW1vbm9zcGFjZSxTRk1vbm8tUmVndWxhcixNZW5sbyxDb25zb2xhcyxtb25vc3BhY2U7IH0KICAgIC5tdXRlZCB7IGZpbGw6ICR7dGhlbWUubXV0ZWR9OyBmb250OiAxMnB4IC1hcHBsZS1zeXN0ZW0sQmxpbmtNYWNTeXN0ZW1Gb250LCJTZWdvZSBVSSIsc2Fucy1zZXJpZjsgfQogIDwvc3R5bGU+CiAgPHRleHQgeD0iMjQiIHk9IjMxIiBjbGFzcz0idGl0bGUiPiR7ZXNjYXBlWG1sKGxvZ2luKX0ncyBHaXRIdWIgU3RhdHM8L3RleHQ+CiAgJHtzdGF0Um93KCdTVCcsICdUb3RhbCBTdGFycyBFYXJuZWQnLCB0b3RhbHMuc3RhcnMsIDI2LCA2MiwgMjU4KX0KICAke3N0YXRSb3coJ0ZLJywgJ1RvdGFsIEZvcmtzJywgdG90YWxzLmZvcmtzLCAyNiwgODgsIDI1OCl9CiAgJHtzdGF0Um93KCdSUCcsICdQdWJsaWMgUmVwb3NpdG9yaWVzJywgdG90YWxzLnJlcG9zLCAyNiwgMTE0LCAyNTgpfQogICR7c3RhdFJvdygnQ1knLCBgQ29udHJpYnV0aW9ucyAoJHtub3cuZ2V0VVRDRnVsbFllYXIoKX0pYCwgdG90YWxzLmNvbnRyaWJ1dGlvbnMsIDI2LCAxNDAsIDI1OCl9CiAgJHtzdGF0Um93KCdDTScsICdDb21taXRzJywgdG90YWxzLmNvbW1pdHMsIDI4MiwgNjIsIDQ1Nil9CiAgJHtzdGF0Um93KCdQUicsICdQdWxsIFJlcXVlc3RzJywgdG90YWxzLnBycywgMjgyLCA4OCwgNDU2KX0KICAke3N0YXRSb3coJ0lTJywgJ0lzc3VlcycsIHRvdGFscy5pc3N1ZXMsIDI4MiwgMTE0LCA0NTYpfQogICR7c3RhdFJvdygnRlcnLCAnRm9sbG93ZXJzJywgdG90YWxzLmZvbGxvd2VycywgMjgyLCAxNDAsIDQ1Nil9CiAgPHRleHQgeD0iNDU2IiB5PSIzMSIgY2xhc3M9Im11dGVkIiB0ZXh0LWFuY2hvcj0iZW5kIj4ke2dlbmVyYXRlZEF0fTwvdGV4dD4KPC9zdmc+CmA7Cn0KCmZ1bmN0aW9uIHJlbmRlclRvcExhbmd1YWdlc1N2ZygpIHsKICBsZXQgY3Vyc29yID0gMjQ7CiAgY29uc3Qgc2VnbWVudHMgPSB0b3BMYW5ndWFnZXMubWFwKChsYW5ndWFnZSkgPT4gewogICAgY29uc3Qgd2lkdGggPSBNYXRoLm1heCg4LCAobGFuZ3VhZ2Uuc2l6ZSAvIGxhbmd1YWdlVG90YWwpICogMzEyKTsKICAgIGNvbnN0IHNlZ21lbnQgPSBgPHJlY3QgeD0iJHtjdXJzb3IudG9GaXhlZCgyKX0iIHk9IjUwIiB3aWR0aD0iJHt3aWR0aC50b0ZpeGVkKDIpfSIgaGVpZ2h0PSI4IiByeD0iNCIgZmlsbD0iJHtlc2NhcGVYbWwobGFuZ3VhZ2UuY29sb3IpfSIvPmA7CiAgICBjdXJzb3IgKz0gd2lkdGg7CiAgICByZXR1cm4gc2VnbWVudDsKICB9KS5qb2luKCdcbiAgJyk7CgogIGNvbnN0IHJvd3MgPSB0b3BMYW5ndWFnZXMubWFwKChsYW5ndWFnZSwgaW5kZXgpID0+IHsKICAgIGNvbnN0IHggPSBpbmRleCAlIDIgPT09IDAgPyAyNCA6IDE5MDsKICAgIGNvbnN0IHkgPSA4NiArIE1hdGguZmxvb3IoaW5kZXggLyAyKSAqIDI2OwogICAgY29uc3QgcGVyY2VudCA9ICgobGFuZ3VhZ2Uuc2l6ZSAvIGxhbmd1YWdlVG90YWwpICogMTAwKS50b0ZpeGVkKDEpOwogICAgcmV0dXJuIGA8Y2lyY2xlIGN4PSIke3h9IiBjeT0iJHt5IC0gNH0iIHI9IjUiIGZpbGw9IiR7ZXNjYXBlWG1sKGxhbmd1YWdlLmNvbG9yKX0iLz4KICAgIDx0ZXh0IHg9IiR7eCArIDEzfSIgeT0iJHt5fSIgY2xhc3M9ImxhYmVsIj4ke2VzY2FwZVhtbChsYW5ndWFnZS5uYW1lKX08L3RleHQ+CiAgICA8dGV4dCB4PSIke3ggKyAxMzJ9IiB5PSIke3l9IiBjbGFzcz0icGVyY2VudCIgdGV4dC1hbmNob3I9ImVuZCI+JHtwZXJjZW50fSU8L3RleHQ+YDsKICB9KS5qb2luKCdcbiAgICAnKTsKCiAgcmV0dXJuIGA8c3ZnIHdpZHRoPSIzNjAiIGhlaWdodD0iMTY1IiB2aWV3Qm94PSIwIDAgMzYwIDE2NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IiR7ZXNjYXBlWG1sKGxvZ2luKX0gdG9wIGxhbmd1YWdlcyI+CiAgPHN0eWxlPgogICAgLnRpdGxlIHsgZmlsbDogJHt0aGVtZS50aXRsZX07IGZvbnQ6IDYwMCAxOHB4IC1hcHBsZS1zeXN0ZW0sQmxpbmtNYWNTeXN0ZW1Gb250LCJTZWdvZSBVSSIsc2Fucy1zZXJpZjsgfQogICAgLmxhYmVsIHsgZmlsbDogJHt0aGVtZS50ZXh0fTsgZm9udDogNTAwIDEzcHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsIlNlZ29lIFVJIixzYW5zLXNlcmlmOyB9CiAgICAucGVyY2VudCB7IGZpbGw6ICR7dGhlbWUubXV0ZWR9OyBmb250OiA1MDAgMTJweCAtYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCwiU2Vnb2UgVUkiLHNhbnMtc2VyaWY7IH0KICAgIC5tdXRlZCB7IGZpbGw6ICR7dGhlbWUubXV0ZWR9OyBmb250OiAxMnB4IC1hcHBsZS1zeXN0ZW0sQmxpbmtNYWNTeXN0ZW1Gb250LCJTZWdvZSBVSSIsc2Fucy1zZXJpZjsgfQogIDwvc3R5bGU+CiAgPHRleHQgeD0iMjQiIHk9IjMxIiBjbGFzcz0idGl0bGUiPk1vc3QgVXNlZCBMYW5ndWFnZXM8L3RleHQ+CiAgPHJlY3QgeD0iMjQiIHk9IjUwIiB3aWR0aD0iMzEyIiBoZWlnaHQ9IjgiIHJ4PSI0IiBmaWxsPSIke3RoZW1lLnRyYWNrfSIvPgogICR7c2VnbWVudHN9CiAgJHtyb3dzfQogIDx0ZXh0IHg9IjMzNiIgeT0iMzEiIGNsYXNzPSJtdXRlZCIgdGV4dC1hbmNob3I9ImVuZCI+YXV0by1nZW5lcmF0ZWQ8L3RleHQ+Cjwvc3ZnPgpgOwp9Cgphd2FpdCBta2RpcigncHJvZmlsZScsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwphd2FpdCB3cml0ZUZpbGUoJ3Byb2ZpbGUvc3RhdHMuc3ZnJywgcmVuZGVyU3RhdHNTdmcoKSwgJ3V0ZjgnKTsKYXdhaXQgd3JpdGVGaWxlKCdwcm9maWxlL3RvcC1sYW5ncy5zdmcnLCByZW5kZXJUb3BMYW5ndWFnZXNTdmcoKSwgJ3V0ZjgnKTsKY29uc29sZS5sb2coYEdlbmVyYXRlZCBwcm9maWxlIHN0YXRzIGZvciAke2xvZ2lufWApOwo=
+import { mkdir, writeFile } from 'node:fs/promises';
+
+const token = process.env.GITHUB_TOKEN;
+const login = process.env.PROFILE_USER || 'goehou';
+const now = new Date();
+const yearStart = `${now.getUTCFullYear()}-01-01T00:00:00Z`;
+const generatedAt = now.toISOString().slice(0, 10);
+
+if (!token) {
+  throw new Error('GITHUB_TOKEN is required');
+}
+
+const theme = {
+  title: '#8b5cf6',
+  text: '#c9d1d9',
+  muted: '#8b949e',
+  icon: '#8b5cf6',
+  track: '#30363d',
+};
+
+const query = `
+query ProfileStats($login: String!, $yearStart: DateTime!) {
+  user(login: $login) {
+    login
+    followers { totalCount }
+    repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC, orderBy: {field: STARGAZERS, direction: DESC}) {
+      totalCount
+      nodes {
+        stargazerCount
+        forkCount
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges {
+            size
+            node { name color }
+          }
+        }
+      }
+    }
+    contributionsCollection(from: $yearStart) {
+      contributionCalendar { totalContributions }
+      totalCommitContributions
+      totalIssueContributions
+      totalPullRequestContributions
+      totalPullRequestReviewContributions
+      restrictedContributionsCount
+    }
+  }
+}
+`;
+
+const response = await fetch('https://api.github.com/graphql', {
+  method: 'POST',
+  headers: {
+    authorization: `Bearer ${token}`,
+    'content-type': 'application/json',
+    'user-agent': `${login}-profile-stats`,
+  },
+  body: JSON.stringify({ query, variables: { login, yearStart } }),
+});
+
+if (!response.ok) {
+  throw new Error(`GitHub GraphQL failed: ${response.status} ${response.statusText}`);
+}
+
+const payload = await response.json();
+if (payload.errors?.length) {
+  throw new Error(payload.errors.map((error) => error.message).join('; '));
+}
+
+const user = payload.data.user;
+if (!user) {
+  throw new Error(`GitHub user not found: ${login}`);
+}
+
+const repos = user.repositories.nodes ?? [];
+const contributions = user.contributionsCollection;
+const totals = {
+  stars: repos.reduce((sum, repo) => sum + repo.stargazerCount, 0),
+  forks: repos.reduce((sum, repo) => sum + repo.forkCount, 0),
+  repos: user.repositories.totalCount,
+  followers: user.followers.totalCount,
+  contributions: contributions.contributionCalendar.totalContributions,
+  commits: contributions.totalCommitContributions,
+  prs: contributions.totalPullRequestContributions,
+  issues: contributions.totalIssueContributions,
+  reviews: contributions.totalPullRequestReviewContributions,
+};
+
+const languages = new Map();
+for (const repo of repos) {
+  for (const edge of repo.languages.edges ?? []) {
+    const name = edge.node.name;
+    const current = languages.get(name) ?? { name, color: edge.node.color || theme.icon, size: 0 };
+    current.size += edge.size;
+    languages.set(name, current);
+  }
+}
+
+const topLanguages = [...languages.values()]
+  .sort((a, b) => b.size - a.size)
+  .slice(0, 6);
+const languageTotal = topLanguages.reduce((sum, language) => sum + language.size, 0) || 1;
+
+function escapeXml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;');
+}
+
+function formatNumber(value) {
+  return new Intl.NumberFormat('en-US').format(value);
+}
+
+function statRow(icon, label, value, x, y, valueX = x + 245) {
+  return `
+    <text x="${x}" y="${y}" class="icon">${escapeXml(icon)}</text>
+    <text x="${x + 28}" y="${y}" class="label">${escapeXml(label)}</text>
+    <text x="${valueX}" y="${y}" class="value" text-anchor="end">${escapeXml(formatNumber(value))}</text>`;
+}
+
+function renderStatsSvg() {
+  return `<svg width="480" height="165" viewBox="0 0 480 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeXml(login)} GitHub stats">
+  <style>
+    .title { fill: ${theme.title}; font: 600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .label { fill: ${theme.text}; font: 500 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .value { fill: ${theme.title}; font: 700 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .icon { fill: ${theme.icon}; font: 700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .muted { fill: ${theme.muted}; font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  </style>
+  <text x="24" y="31" class="title">${escapeXml(login)}'s GitHub Stats</text>
+  ${statRow('ST', 'Total Stars Earned', totals.stars, 26, 62, 258)}
+  ${statRow('FK', 'Total Forks', totals.forks, 26, 88, 258)}
+  ${statRow('RP', 'Public Repositories', totals.repos, 26, 114, 258)}
+  ${statRow('CY', `Contributions (${now.getUTCFullYear()})`, totals.contributions, 26, 140, 258)}
+  ${statRow('CM', 'Commits', totals.commits, 282, 62, 456)}
+  ${statRow('PR', 'Pull Requests', totals.prs, 282, 88, 456)}
+  ${statRow('IS', 'Issues', totals.issues, 282, 114, 456)}
+  ${statRow('FW', 'Followers', totals.followers, 282, 140, 456)}
+  <text x="456" y="31" class="muted" text-anchor="end">${generatedAt}</text>
+</svg>
+`;
+}
+
+function renderTopLanguagesSvg() {
+  let cursor = 24;
+  const segments = topLanguages.map((language) => {
+    const width = Math.max(8, (language.size / languageTotal) * 312);
+    const segment = `<rect x="${cursor.toFixed(2)}" y="50" width="${width.toFixed(2)}" height="8" rx="4" fill="${escapeXml(language.color)}"/>`;
+    cursor += width;
+    return segment;
+  }).join('\n  ');
+
+  const rows = topLanguages.map((language, index) => {
+    const x = index % 2 === 0 ? 24 : 190;
+    const y = 86 + Math.floor(index / 2) * 26;
+    const percent = ((language.size / languageTotal) * 100).toFixed(1);
+    return `<circle cx="${x}" cy="${y - 4}" r="5" fill="${escapeXml(language.color)}"/>
+    <text x="${x + 13}" y="${y}" class="label">${escapeXml(language.name)}</text>
+    <text x="${x + 132}" y="${y}" class="percent" text-anchor="end">${percent}%</text>`;
+  }).join('\n    ');
+
+  return `<svg width="360" height="165" viewBox="0 0 360 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeXml(login)} top languages">
+  <style>
+    .title { fill: ${theme.title}; font: 600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .label { fill: ${theme.text}; font: 500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .percent { fill: ${theme.muted}; font: 500 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .muted { fill: ${theme.muted}; font: 12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  </style>
+  <text x="24" y="31" class="title">Most Used Languages</text>
+  <rect x="24" y="50" width="312" height="8" rx="4" fill="${theme.track}"/>
+  ${segments}
+  ${rows}
+  <text x="336" y="31" class="muted" text-anchor="end">auto-generated</text>
+</svg>
+`;
+}
+
+await mkdir('profile', { recursive: true });
+await writeFile('profile/stats.svg', renderStatsSvg(), 'utf8');
+await writeFile('profile/top-langs.svg', renderTopLanguagesSvg(), 'utf8');
+console.log(`Generated profile stats for ${login}`);
