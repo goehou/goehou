@@ -44,8 +44,8 @@
   MCP stdio server for image recognition via an existng vision model 一个可以增强claude code/codex/opencode识图能力的MCP
 - [pi-feishu-monitor](https://github.com/goehou/pi-feishu-monitor) ![JavaScript](https://img.shields.io/badge/--JavaScript-8b5cf6?style=flat-square&labelColor=0d1117)
   Pi × 飞书 24/7 监控桥：手机远程控制 Pi、下任务、审批危险操作，长连接无需公网 IP
-- [Happy-Code-Review](https://github.com/goehou/Happy-Code-Review) ![HTML](https://img.shields.io/badge/--HTML-8b5cf6?style=flat-square&labelColor=0d1117)
-  Self-hosted multi-platform Git activity dashboard (GitLab/GitHub/Gitee) with built-in AI code review. Aggregates pushes, commits, diffs and code stats into one page. Flask + SQLite, single-file.
+- [gemini-web2api-launcher](https://github.com/goehou/gemini-web2api-launcher) ![Batchfile](https://img.shields.io/badge/--Batchfile-8b5cf6?style=flat-square&labelColor=0d1117)
+  gemini-web2api 服务启动管理工具 (Windows CMD)
 - [Juyu-phone-agent](https://github.com/goehou/Juyu-phone-agent) ![Kotlin](https://img.shields.io/badge/--Kotlin-8b5cf6?style=flat-square&labelColor=0d1117)
   📱 在 Android 手机上跑的通用 AI Agent · ♿ 无障碍服务操控界面 · 🔑 BYOK 多模型 · 🚫 不需要 Root 📱 A general-purpose AI Agent running on Android phones · ♿ Accessibility-driven UI control · 🔑 BYOK multi-model · 🚫 No Root required
 
