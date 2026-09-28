@@ -7,24 +7,24 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="146.35" height="8" rx="4" fill="#3572A5"/>
-  <rect x="170.35" y="50" width="57.54" height="8" rx="4" fill="#3178c6"/>
-  <rect x="227.88" y="50" width="49.64" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="277.53" y="50" width="23.56" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="301.09" y="50" width="20.20" height="8" rx="4" fill="#012456"/>
-  <rect x="321.29" y="50" width="14.71" height="8" rx="4" fill="#00B4AB"/>
+  <rect x="24.00" y="50" width="145.96" height="8" rx="4" fill="#3572A5"/>
+  <rect x="169.96" y="50" width="58.22" height="8" rx="4" fill="#3178c6"/>
+  <rect x="228.17" y="50" width="49.51" height="8" rx="4" fill="#00ADD8"/>
+  <rect x="277.68" y="50" width="23.50" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="301.18" y="50" width="20.15" height="8" rx="4" fill="#012456"/>
+  <rect x="321.33" y="50" width="14.67" height="8" rx="4" fill="#00B4AB"/>
   <circle cx="24" cy="82" r="5" fill="#3572A5"/>
     <text x="37" y="86" class="label">Python</text>
-    <text x="156" y="86" class="percent" text-anchor="end">46.9%</text>
+    <text x="156" y="86" class="percent" text-anchor="end">46.8%</text>
     <circle cx="190" cy="82" r="5" fill="#3178c6"/>
     <text x="203" y="86" class="label">TypeScript</text>
-    <text x="322" y="86" class="percent" text-anchor="end">18.4%</text>
+    <text x="322" y="86" class="percent" text-anchor="end">18.7%</text>
     <circle cx="24" cy="108" r="5" fill="#00ADD8"/>
     <text x="37" y="112" class="label">Go</text>
     <text x="156" y="112" class="percent" text-anchor="end">15.9%</text>
     <circle cx="190" cy="108" r="5" fill="#f1e05a"/>
     <text x="203" y="112" class="label">JavaScript</text>
-    <text x="322" y="112" class="percent" text-anchor="end">7.6%</text>
+    <text x="322" y="112" class="percent" text-anchor="end">7.5%</text>
     <circle cx="24" cy="134" r="5" fill="#012456"/>
     <text x="37" y="138" class="label">PowerShell</text>
     <text x="156" y="138" class="percent" text-anchor="end">6.5%</text>
