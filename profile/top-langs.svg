@@ -7,29 +7,29 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="145.96" height="8" rx="4" fill="#3572A5"/>
-  <rect x="169.96" y="50" width="58.22" height="8" rx="4" fill="#3178c6"/>
-  <rect x="228.17" y="50" width="49.51" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="277.68" y="50" width="23.50" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="301.18" y="50" width="20.15" height="8" rx="4" fill="#012456"/>
-  <rect x="321.33" y="50" width="14.67" height="8" rx="4" fill="#00B4AB"/>
+  <rect x="24.00" y="50" width="143.05" height="8" rx="4" fill="#3572A5"/>
+  <rect x="167.05" y="50" width="57.00" height="8" rx="4" fill="#3178c6"/>
+  <rect x="224.05" y="50" width="48.48" height="8" rx="4" fill="#00ADD8"/>
+  <rect x="272.53" y="50" width="23.01" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="295.55" y="50" width="20.73" height="8" rx="4" fill="#e34c26"/>
+  <rect x="316.27" y="50" width="19.73" height="8" rx="4" fill="#012456"/>
   <circle cx="24" cy="82" r="5" fill="#3572A5"/>
     <text x="37" y="86" class="label">Python</text>
-    <text x="156" y="86" class="percent" text-anchor="end">46.8%</text>
+    <text x="156" y="86" class="percent" text-anchor="end">45.8%</text>
     <circle cx="190" cy="82" r="5" fill="#3178c6"/>
     <text x="203" y="86" class="label">TypeScript</text>
-    <text x="322" y="86" class="percent" text-anchor="end">18.7%</text>
+    <text x="322" y="86" class="percent" text-anchor="end">18.3%</text>
     <circle cx="24" cy="108" r="5" fill="#00ADD8"/>
     <text x="37" y="112" class="label">Go</text>
-    <text x="156" y="112" class="percent" text-anchor="end">15.9%</text>
+    <text x="156" y="112" class="percent" text-anchor="end">15.5%</text>
     <circle cx="190" cy="108" r="5" fill="#f1e05a"/>
     <text x="203" y="112" class="label">JavaScript</text>
-    <text x="322" y="112" class="percent" text-anchor="end">7.5%</text>
-    <circle cx="24" cy="134" r="5" fill="#012456"/>
-    <text x="37" y="138" class="label">PowerShell</text>
-    <text x="156" y="138" class="percent" text-anchor="end">6.5%</text>
-    <circle cx="190" cy="134" r="5" fill="#00B4AB"/>
-    <text x="203" y="138" class="label">Dart</text>
-    <text x="322" y="138" class="percent" text-anchor="end">4.7%</text>
+    <text x="322" y="112" class="percent" text-anchor="end">7.4%</text>
+    <circle cx="24" cy="134" r="5" fill="#e34c26"/>
+    <text x="37" y="138" class="label">HTML</text>
+    <text x="156" y="138" class="percent" text-anchor="end">6.6%</text>
+    <circle cx="190" cy="134" r="5" fill="#012456"/>
+    <text x="203" y="138" class="label">PowerShell</text>
+    <text x="322" y="138" class="percent" text-anchor="end">6.3%</text>
   <text x="336" y="31" class="muted" text-anchor="end">auto-generated</text>
 </svg>
