@@ -7,11 +7,11 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="118.83" height="8" rx="4" fill="#3572A5"/>
-  <rect x="142.83" y="50" width="94.42" height="8" rx="4" fill="#3178c6"/>
-  <rect x="237.25" y="50" width="39.89" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="277.14" y="50" width="24.28" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="301.42" y="50" width="18.35" height="8" rx="4" fill="#e34c26"/>
+  <rect x="24.00" y="50" width="118.79" height="8" rx="4" fill="#3572A5"/>
+  <rect x="142.79" y="50" width="94.38" height="8" rx="4" fill="#3178c6"/>
+  <rect x="237.17" y="50" width="39.88" height="8" rx="4" fill="#00ADD8"/>
+  <rect x="277.05" y="50" width="24.37" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="301.42" y="50" width="18.36" height="8" rx="4" fill="#e34c26"/>
   <rect x="319.77" y="50" width="16.23" height="8" rx="4" fill="#012456"/>
   <circle cx="24" cy="82" r="5" fill="#3572A5"/>
     <text x="37" y="86" class="label">Python</text>
