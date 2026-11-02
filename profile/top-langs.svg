@@ -7,18 +7,18 @@
   </style>
   <text x="24" y="31" class="title">Most Used Languages</text>
   <rect x="24" y="50" width="312" height="8" rx="4" fill="#30363d"/>
-  <rect x="24.00" y="50" width="93.29" height="8" rx="4" fill="#3572A5"/>
-  <rect x="117.29" y="50" width="75.55" height="8" rx="4" fill="#3178c6"/>
-  <rect x="192.84" y="50" width="66.24" height="8" rx="4" fill="#00B4AB"/>
-  <rect x="259.08" y="50" width="31.81" height="8" rx="4" fill="#f1e05a"/>
-  <rect x="290.89" y="50" width="30.38" height="8" rx="4" fill="#00ADD8"/>
-  <rect x="321.27" y="50" width="14.73" height="8" rx="4" fill="#f34b7d"/>
+  <rect x="24.00" y="50" width="93.07" height="8" rx="4" fill="#3572A5"/>
+  <rect x="117.07" y="50" width="76.10" height="8" rx="4" fill="#3178c6"/>
+  <rect x="193.18" y="50" width="66.08" height="8" rx="4" fill="#00B4AB"/>
+  <rect x="259.26" y="50" width="31.73" height="8" rx="4" fill="#f1e05a"/>
+  <rect x="290.99" y="50" width="30.31" height="8" rx="4" fill="#00ADD8"/>
+  <rect x="321.30" y="50" width="14.70" height="8" rx="4" fill="#f34b7d"/>
   <circle cx="24" cy="82" r="5" fill="#3572A5"/>
     <text x="37" y="86" class="label">Python</text>
-    <text x="156" y="86" class="percent" text-anchor="end">29.9%</text>
+    <text x="156" y="86" class="percent" text-anchor="end">29.8%</text>
     <circle cx="190" cy="82" r="5" fill="#3178c6"/>
     <text x="203" y="86" class="label">TypeScript</text>
-    <text x="322" y="86" class="percent" text-anchor="end">24.2%</text>
+    <text x="322" y="86" class="percent" text-anchor="end">24.4%</text>
     <circle cx="24" cy="108" r="5" fill="#00B4AB"/>
     <text x="37" y="112" class="label">Dart</text>
     <text x="156" y="112" class="percent" text-anchor="end">21.2%</text>
